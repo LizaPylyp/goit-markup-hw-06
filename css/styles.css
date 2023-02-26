@@ -1054,6 +1054,7 @@ fill: #AFB1B8;
         margin-top: 2px;
         margin-left: 40px;
         margin-right: 40px;
+        padding-bottom: 16px;
         }
         .name__fr{
             width: 22px;
@@ -1096,6 +1097,9 @@ fill: #AFB1B8;
             position: relative;
             margin-left: 40px;
             outline: none;
+            padding-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 26px;
         }
         
         .forma__hp12:focus+ .forma__person{
@@ -1121,6 +1125,9 @@ fill: #AFB1B8;
             position: relative;
             margin-left: 40px;
             outline: none;
+            padding-left: 24px;
+            margin-right: 24px;
+            margin-bottom: 26px;
         }
         .forma__macb:focus{
             border: 1px solid #2196F3; 
@@ -1136,6 +1143,9 @@ fill: #AFB1B8;
             position: relative;
             margin-left: 40px;
             outline: none;
+            padding-left: 24px;
+            margin-right: 24px;
+            margin-bottom: 26px;
         }
         .forma__len:focus{
             border: 1px solid #2196F3; 
@@ -1261,8 +1271,8 @@ fill: #AFB1B8;
         margin-left: 490px;
         }
         .button-modal{
-            width: 200px;
-        height: 50px;
+            width: 169px;
+height: 56px;
         left: 700px;
         top: 712px;
         background: #2196F3;
@@ -1270,6 +1280,8 @@ fill: #AFB1B8;
         border-radius: 4px;
         margin-left: 164px;
         margin-right: 164px;
+        margin-bottom: 16px;
+        
         }
         .title-modal{
         font-style: normal;
@@ -1282,5 +1294,8 @@ fill: #AFB1B8;
         letter-spacing: 0.06em;
         color: #FFFFFF;
         margin-left: 46px;
+        padding-top: 8px;
+        margin-bottom: 16px;
         
+        margin-right: 32px;
         }
