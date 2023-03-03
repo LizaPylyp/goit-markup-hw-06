@@ -1227,16 +1227,6 @@ border: 1px solid rgba(0, 0, 0, 0.1);
             letter-spacing: 0.04em;
             color: #FFFFFF;
         }
-        
-        .subscribe__rosulka{
-            margin-bottom: 16px;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #FFFFFF;
-            }
             .subscribe__net{
                 height: 40px;
                 width: 264px;
@@ -1252,6 +1242,15 @@ border: 1px solid rgba(0, 0, 0, 0.1);
                 padding-left: 16px;
 
             }
+            .subscribe{
+                margin-bottom: 16px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            }
             .stud{
                 margin-left: 24px;
                 height: 40px;
@@ -1262,16 +1261,15 @@ border: 1px solid rgba(0, 0, 0, 0.1);
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.04em;
+                color: #FFFFFF;
 
             }
-                .stud__text{
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 1.5;
-                    letter-spacing: 0.04em;
-                    color: #FFFFFF;
-            }
+            
             .stud__telegraf{
                 margin-left: 10px;
             }
