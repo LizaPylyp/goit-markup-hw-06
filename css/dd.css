@@ -1,0 +1,36 @@
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #404BBF;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .checkmark:after {
+   background-image: url(../images/symbol-defs.svg#check);
+   height: 8px;
+width: 10px;
+border-radius: 0px;
+color: #F4F4FD;
+border: none;
+background-position: center;
+background-repeat: no-repeat;
+  }
