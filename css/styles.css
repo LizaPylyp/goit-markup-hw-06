@@ -2,6 +2,7 @@
 *::before,
 *::after{
     box-sizing: border-box;
+
 }
 h1,
 h2,
@@ -1171,9 +1172,60 @@ padding: 72px 24px 24px 24px;
             line-height: 1.2;
             letter-spacing: 0.04em;
             color: #757575;
-            
+            display: block;
+            position: relative;
+            cursor: pointer;
+            user-select: none;
         }
-        .value{
+        .checkmark {
+            position: absolute;
+            top: 3px;
+            left: 2px;
+            height: 16px;
+            width: 16px;
+            background-color: #404BBF;
+            border: 1.25px solid #404BBF;
+border-radius: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+          }
+          .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+            position: absolute;
+            display: block;
+            left: auto;
+            top: auto;
+          fill: #F4F4FD;
+          }
+          .hobby input:checked ~ .greg::after{
+            display: block;
+            opacity: 100%;
+          }
+          
+          .greg{
+            position: absolute;
+            opacity: 0;
+            left: auto;
+            top: auto;
+          fill: #F4F4FD;  
+          }
+          .greg::after{
+            display: block;
+            opacity: 100%;
+            
+          }
+         .greg:focus{
+            display: block;
+            opacity: 100%;
+         }
+         .checkmark:focus   + {
+            display: block;
+            opacity: 100%;
+         }
+             .value{
             font-style: normal;
             font-weight: 400;
             font-size: 12px;
